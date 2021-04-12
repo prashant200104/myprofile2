@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 60px;
+    color: blueviolet;
+    background-color: rgba(173, 54, 158,0.5);
+    border-radius: 10cm;
+}
+nav {
+    background-color: rgb(27, 223, 132);
+    overflow: hidden;
+}
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+   
+    background-image: url(img/cup.jpg) ;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+img:
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.second{
+    background-image: url(img/b.jpg);
+    
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+}
+p{
+    font-size: 40px;
+    color: darkgoldenrod;
+    font-style: italic;
+}
+.third{
+    background-image: url(img/d.jpg);
+    
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+}
